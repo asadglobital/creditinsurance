@@ -1,0 +1,33 @@
+/*
+Theme Name:   Child Hello Elementor
+Description:  Write here a brief description about your child-theme
+Author:       kbtho
+Author URL:   https://staging.serverfortesting.com.au/archives-collection
+Template:     hello-elementor
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  ChildHelloElementor
+*/
+
+/* Write here your own personal stylesheet */
+
+.search-by-country-name-dropdown a.dropdown-item {
+    width: 100% !important;
+    display: inline-block;
+    padding: 10px 20px 10px 20px !important;
+}
+.search-by-country-name-dropdown a.dropdown-item:hover {
+    background: #45A1CD !important;
+    color: white;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+    @media (max-width: 767px) {
+        #providers-details {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+    }
